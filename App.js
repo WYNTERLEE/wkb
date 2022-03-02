@@ -1,5 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View, Image, StatusBar, SafeAreaView } from "react-native";
 
 const App = () => {
   return (
@@ -20,6 +20,14 @@ const App = () => {
             <Text>Taylor Swift</Text>
             <Text>Taylor Swift</Text>
           </View>
+        </View>
+        <View>
+          <Image
+            style={styles.imageStyle}
+            source={{
+              uri: "https://images-na.ssl-images-amazon.com/images/I/61McsadO1OL.jpg",
+            }}
+          />
         </View>
       </View>
     </SafeAreaView>
@@ -66,6 +74,10 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10,
+  },
+  imageStyle: {
+    height: 300,
+    width: null,
   },
 });
 
