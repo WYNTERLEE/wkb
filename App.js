@@ -13,22 +13,21 @@ const App = () => {
           <Image
             style={styles.thumbnailStyle}
             source={{
-              uri: "https://i.imgur.com/K3KJ3w4h.jpg",
+              uri: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bcc96d39-785d-4796-bb89-fede2ff7fe12/deawoz5-4cbea740-a36c-4cb0-be29-b736c51f34a6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjYzk2ZDM5LTc4NWQtNDc5Ni1iYjg5LWZlZGUyZmY3ZmUxMlwvZGVhd296NS00Y2JlYTc0MC1hMzZjLTRjYjAtYmUyOS1iNzM2YzUxZjM0YTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.a8gu5YBvWEPkc-wI32Ye2tVIiUeOKl94EloWt4MhSLo",
             }}
           />
-          <View style={styles.headerContentStyle}>
-            <Text>Taylor Swift</Text>
-            <Text>Taylor Swift</Text>
-          </View>
+         
         </View>
         <View style={styles.cardSectionStyle}>
           <Image
             style={styles.imageStyle}
-            source={{
-              uri: "https://upload.wikimedia.org/wikipedia/zh/c/ca/TWICE-Eyes_wide_open.jpg",
-            }}
+            source={{uri: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bcc96d39-785d-4796-bb89-fede2ff7fe12/deawoz5-4cbea740-a36c-4cb0-be29-b736c51f34a6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjYzk2ZDM5LTc4NWQtNDc5Ni1iYjg5LWZlZGUyZmY3ZmUxMlwvZGVhd296NS00Y2JlYTc0MC1hMzZjLTRjYjAtYmUyOS1iNzM2YzUxZjM0YTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.a8gu5YBvWEPkc-wI32Ye2tVIiUeOKl94EloWt4MhSLo",}}
           />
-        </View>
+        </View> 
+        <View style={styles.headerContentStyle}>
+            <Text> TWICE<Text>More&More</Text></Text>
+            
+          </View>
       </View>
     </View>
   );
@@ -76,6 +75,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10,
+    justifyContent: "center",
+    alignItems: "center",
   },
   cardSectionStyle: {
     padding: 5,
@@ -84,8 +85,10 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
   imageStyle: {
+    
+    
     height: 300,
-    width: null,
+    width: 300,
   },
 });
 
