@@ -1,12 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View, Image, StatusBar,  } from "react-native";
+import { View,  StatusBar, StyleSheet } from "react-native";
 import Header from "./src/components/Header";
 import Albumlist from "./src/components/AlbumList";
 
 
 const App = () => {
   return (
-    <View style={{flex: 1}}>
+    <View style={styles.container}>
       <StatusBar />
       <Header />
       <Albumlist />
@@ -14,6 +14,11 @@ const App = () => {
   );
 };
 
-
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor:"#f8edeb",
+  }
+});
 
 export default App;
