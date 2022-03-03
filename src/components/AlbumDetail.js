@@ -55,9 +55,7 @@ const styles = StyleSheet.create({
         flexDirection:"row",
     },
     cardContainerStyle: {
-      width:400,
-      marginLeft: 5,
-      marginRight: 5,
+    
       marginTop: 50,
       height:400,
       justifyContent: "center",
@@ -75,11 +73,7 @@ const styles = StyleSheet.create({
     imageStyle: {
       height: 280,
       width: 280,
-      shadowColor: "#9381ff",
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 1,
-      // Android Only
-      elevation: 8,
+     
     },
     thumbnailContainerStyle: { justifyContent: "flex-start",},
     thumbnailStyle: {
